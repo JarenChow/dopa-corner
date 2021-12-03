@@ -1,8 +1,8 @@
 {
   "name": "dopa-corner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "github corner(canvas)",
-  "main": "rollup.config.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,9 +23,5 @@
   "homepage": "https://github.com/JarenChow/dopa-corner#readme",
   "dependencies": {
     "dopa": "^1.1.0"
-  },
-  "devDependencies": {
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-commonjs": "^10.1.0"
   }
 }
