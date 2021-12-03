@@ -15,3 +15,11 @@ github corner(canvas)
   createCorner('#corner', 'https://github.com/JarenChow/dopa-corner');
 </script>
 ```
+
+# dependency
+
+[dopa](https://github.com/JarenChow/dopa)
+
+# page
+
+[dopa-corner](https://JarenChow.github.io/dopa-corner)
