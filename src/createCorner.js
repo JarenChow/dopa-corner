@@ -30,8 +30,8 @@ export default function createCorner(container, url) {
     parent: background,
     path: PATH.TAIL,
     fillStyle: '#fff',
-    originX: 130,
-    originY: 106
+    originX: 133, // 130
+    originY: 109  // 106
   });
 
   corner.on('update', (ratio) => {
@@ -51,7 +51,7 @@ export default function createCorner(container, url) {
 
   let pointer = null, cursor;
   corner.on('pointerdown', (ev) => {
-    if (pointer) ev.stop(), window.open(url || 'https://github.com/jarenchow/dopa');
+    if (pointer) ev.stop(), window.open(url || 'https://github.com/JarenChow');
   });
   corner.on('pointermove', (ev) => {
     if (pointer) ev.stop();

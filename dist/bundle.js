@@ -38,8 +38,8 @@
       parent: background,
       path: PATH.TAIL,
       fillStyle: '#fff',
-      originX: 130,
-      originY: 106
+      originX: 133,
+      originY: 109
     });
 
     corner.on('update', (ratio) => {
@@ -59,7 +59,7 @@
 
     let pointer = null, cursor;
     corner.on('pointerdown', (ev) => {
-      if (pointer) ev.stop(), window.open(url || 'https://github.com/jarenchow/dopa');
+      if (pointer) ev.stop(), window.open(url || 'https://github.com/JarenChow');
     });
     corner.on('pointermove', (ev) => {
       if (pointer) ev.stop();

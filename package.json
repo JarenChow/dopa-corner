@@ -1,6 +1,6 @@
 {
   "name": "dopa-corner",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "github corner(canvas)",
   "main": "dist/bundle.js",
   "scripts": {
