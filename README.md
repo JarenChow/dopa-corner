@@ -9,10 +9,10 @@ github corner(canvas)
 # usage
 
 ```html
-<div id="corner" style="position: fixed;top: 0;right: 0;width: 80px;height: 80px;"></div>
+<a id="corner" href="https://github.com/JarenChow" style="position: fixed;top: 0;right: 0;"></a>
 
 <script>
-  createCorner('#corner', 'https://github.com/JarenChow/dopa-corner');
+  createCorner('#corner');
 </script>
 ```
 
