@@ -31,12 +31,12 @@
       fillStyle: '#151513'
     });
     let body = corner.create('path', {
-      parent: background,
+      group: background,
       path: PATH.BODY,
       fillStyle: '#fff'
     });
     let tail = corner.create('path', {
-      parent: background,
+      group: background,
       path: PATH.TAIL,
       fillStyle: '#fff',
       originX: 133, // 130
